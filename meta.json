@@ -1,0 +1,23 @@
+{
+  "app": {"name": "Opera Browser with VPN", "app_store_id": "1411869974"},
+  "flows": [
+    {"channel": "Meta", "headline": "Protect your privacy online", "paywall_opens_on": "VPN Pro yearly, $3.33 a month, after Connect shows “Protected”", "note": "VPN and Ad Block shown on at the start; the paywall puts Free and Pro side by side"},
+    {"channel": "Meta", "headline": "Say goodbye to annoying ads", "paywall_opens_on": "VPN Pro yearly, after “Blocked 16 Ads and Trackers” on a busy page", "note": "proof first: their blocked count, a real review and 4.7 stars above the plans"},
+    {"channel": "Apple Ads", "term": "proton vpn", "headline": "A VPN, built into your browser", "paywall_opens_on": "VPN Pro, 1 year first of three plan lengths", "note": "a free region picked, VPN Pro’s 47 locations shown below it"}
+  ],
+  "prices": {"yearly": "$39.99", "six_months": "$29.99", "monthly": "$7.99", "trial": "none", "source": "opera.com VPN Pro page (sold on Android and desktop; the iOS app has no in-app purchases today, so the paywalls are a proposal)"},
+  "today": {"text": "every install sees “Welcome to Opera · Light, fast and secure browser”, a data-consent screen and a theme tip, with VPN and Ad Block left in the menu and nothing to buy", "source": "audit_frames"},
+  "asks": ["Where do you want to stay private?", "Which ads bother you most?", "What do you need a VPN for?"],
+  "paywall": {"headline": "Your tabs are protected. Now protect the rest of your phone.", "uses_answers": true},
+  "rebuild": "each ad and search opens its own first launch: the promised switch already on, one question, a first win before any price, VPN Pro where the free VPN stops, and a shorter real plan on close",
+  "ideas": [
+    {"n": 1, "title": "Open on the ad’s promise, already switched on", "screen": "Arrive", "outcome": "CR +10–15%"},
+    {"n": 2, "title": "Ask one question, and use it on the paywall", "screen": "One question", "outcome": "CR +10–15%"},
+    {"n": 3, "title": "A first win before any price", "screen": "First win", "outcome": "CR +5–15%"},
+    {"n": 4, "title": "Sell VPN Pro where the free VPN stops", "screen": "Paywall", "outcome": "CR +10–20%"},
+    {"n": 5, "title": "Catch the close with a real second plan", "screen": "On close", "outcome": "ARPU +10–15%"}
+  ],
+  "outcome": {"purchases": "+10–20%", "arpu": "+10–15%"},
+  "languages": ["en", "pl", "no"],
+  "live_url": "https://eddieatadapty.github.io/opera-flow-rebuild/"
+}
